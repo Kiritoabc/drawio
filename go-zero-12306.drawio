@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T06:24:09.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.3" etag="gtq6pVgq9YFPbiLwphQr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T06:42:01.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ZFAUyOXM5EQBRLzWzX8f" version="22.1.3" type="github">
   <diagram name="第 1 页" id="KCfPe0tTYRoRkrIL_9Oh">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="36MoRy93J8elWNjnk2ek-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="890" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="36MoRy93J8elWNjnk2ek-3" value="Registr流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
