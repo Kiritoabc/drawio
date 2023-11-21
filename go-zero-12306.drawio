@@ -1,14 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T10:16:49.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="orVCEY5IXj-h9BwKAMoV" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T10:25:00.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="CIW-Q41e3DYHLXRIBxtC" version="22.1.3" type="github">
   <diagram name="第 1 页" id="KCfPe0tTYRoRkrIL_9Oh">
-    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="36MoRy93J8elWNjnk2ek-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="30" y="30" width="890" height="430" as="geometry" />
+        <mxCell id="36MoRy93J8elWNjnk2ek-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="220" y="230" width="890" height="430" as="geometry" />
         </mxCell>
         <mxCell id="36MoRy93J8elWNjnk2ek-3" value="Registr流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="380" y="40" width="100" height="40" as="geometry" />
+          <mxGeometry x="980" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-4" target="LTt5tqidHSYvn2nnpIpc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-4" value="&lt;span&gt;0.参数检查&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-7" target="LTt5tqidHSYvn2nnpIpc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-7" value="1.redisson上锁" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-9" target="LTt5tqidHSYvn2nnpIpc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;2.插入用户，&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;判断用户名是否重复&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="570" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-11" target="LTt5tqidHSYvn2nnpIpc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;i&gt;3.插手机号，&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;i&gt;判断手机号是否重复&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-13" target="LTt5tqidHSYvn2nnpIpc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-13" value="4.插入邮箱，&lt;br&gt;检查邮箱是否重复" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-15" target="LTt5tqidHSYvn2nnpIpc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-15" value="5.清楚注销用户信息" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LTt5tqidHSYvn2nnpIpc-17" target="LTt5tqidHSYvn2nnpIpc-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-17" value="6.设置布隆过滤器" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt5tqidHSYvn2nnpIpc-19" value="7.解锁" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
